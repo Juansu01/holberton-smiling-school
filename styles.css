@@ -1,3 +1,20 @@
-body {
-    background-color: grey;
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
 }
+
+a:hover, a:focus {
+    color: white !important;
+}
+
+.navbar-header{
+    text-align:center;
+}
+
+.navbar-toggle {
+    float: none;
+    margin-right:0;
+}
+

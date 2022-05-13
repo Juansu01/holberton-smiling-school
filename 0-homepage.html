@@ -14,20 +14,38 @@
     <link rel='stylesheet' href='styles.css'>
 </head>
 <body>
-    <div class="nav-container">
-        <nav>
-            <div class="smiley-small">
-                <img src="images/smile_off.png">
+    <div class="masthead" style="background-image: url('./images/pic_1.jpg');">
+        <div class="container">
+            <!-- Header section -->
+            <div class="d-none d-xl-block d-lg-block d-md-block d-sm-block">
+                <nav class="navbar navbar-light">
+                    <div class="logos">
+                        <img class="p-2" src="images/smile_off.png" width="60" height="50">
+                        <img class="ml-1" src="images/logo.png" height="40">
+                    </div>
+                    <ul class="navbar-nav">
+                        <div class="nav-links d-flex flex-row-reverse">
+                            <li class="nav-item p-2"><a class="nav-link text-white text-uppercase" href="#">Courses</a></li>
+                            <li class="nav-item p-2"><a class="nav-link text-white text-uppercase" href="#">Pricing</a></li>
+                            <li class="nav-item p-2"><a class="nav-link text-white text-uppercase" href="#">Login</a></li>
+                        </div>
+                    </ul>
+                </nav>
             </div>
-            <div class="nav-logo">
-                <img src="images/logo.png">
+            <div class="d-sm-none text-center">
+                <div class="">
+                    <img class="" src="images/smile_off.png" width="60" height="50">
+                    <div class="w-100"></div>
+                    <img class="" src="images/logo.png" height="40">
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link purple-text text-uppercase underline ul-courses" href="#">Courses</a>
+                    <a class="nav-link text-white text-uppercase" href="pricing.html">Pricing</a>
+                    <a class="nav-link text-white text-uppercase" href="#login">Login</a>
+                </div>
             </div>
-            <ul>
-                <li><a>Courses</a></li>
-                <li><a>Pricing</a></li>
-                <li><a>Login</a></li>
-            </ul>
-        </nav>
+            <!-- Hero section -->
+        </div>
     </div>
 </body>
 </html>
