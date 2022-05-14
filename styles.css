@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url(fonts/SourceSansPro-Regular.otf);
+}
+
+body {
+    font-family: 'SourceSansProRegular', sans-serif;
+}
+
 .masthead {
     background-size: cover;
     min-height: 100vh;
@@ -16,5 +25,10 @@ a:hover, a:focus {
 .navbar-toggle {
     float: none;
     margin-right:0;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 20px;
 }
 
