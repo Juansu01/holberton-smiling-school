@@ -48,6 +48,25 @@ a:hover, a:focus {
 
 }
 
+.purple-button {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.purple-button img {
+    border-radius: 21px;
+    box-shadow: rgba(0,0,0,0.7) 0 0 40px;
+}
+
+.purple-button p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 845px) {
     .masthead {
         background-image: url('./images/pic_1.jpg');
@@ -57,4 +76,28 @@ a:hover, a:focus {
         background-attachment: fixed;
         background-position: center;
     }
+
+    .get-schooled {
+        color: red !important;
+    }
+}
+
+.learn .white-learn {
+    font-family: 'SourceSansProRegular', sans-serif;
+    font-style: normal;
+    font-weight: 10;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.purple-learn {
+    color: #C271FF;
+    font-family: 'SourceSansProRegular', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
 }
