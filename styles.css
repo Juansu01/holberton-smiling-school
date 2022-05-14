@@ -3,15 +3,24 @@
     src: url(fonts/SourceSansPro-Regular.otf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
 body {
     font-family: 'SourceSansProRegular', sans-serif;
 }
 
 .masthead {
+    background-image: url('./images/pic_1.jpg');
     background-size: cover;
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 a:hover, a:focus {
@@ -32,3 +41,20 @@ a:hover, a:focus {
     margin-top: 20px;
 }
 
+.get-schooled {
+    padding-top: 115px;
+    font-size: 7vw;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width: 845px) {
+    .masthead {
+        background-image: url('./images/pic_1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
