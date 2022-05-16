@@ -18,10 +18,11 @@ body {
 }
 
 .masthead {
-    background-image: url('./images/pic_1.jpg');
+    
+    overflow: hidden;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
+    background-image: url('./images/pic_1.jpg');
 }
 
 a:hover, a:focus {
@@ -75,7 +76,7 @@ a:hover, a:focus {
 
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 991px) {
     .masthead {
         background-image: url('./images/pic_1.jpg');
         background-size: cover;
@@ -83,6 +84,11 @@ a:hover, a:focus {
         height: 100vh;
         background-attachment: fixed;
         background-position: center;
+    }
+
+    .learn {
+        padding-top: 100px !important;
+        padding-bottom: 50px !important;
     }
 
 }
