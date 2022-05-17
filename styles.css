@@ -41,8 +41,8 @@ a:hover, a:focus {
 }
 
 .menu {
-    position: fixed;
-    margin-top: 20px;
+    position: static;
+    padding-top: 10px;
 }
 
 .get-schooled {
@@ -145,3 +145,29 @@ a:hover, a:focus {
     padding-bottom: 50px;
 }
 
+.carousel-section {
+    background-color: #C271FF;
+}
+
+.person-quote, .person-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 34px;
+
+}
+
+.person-title {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.carousel .carousel-control-prev-icon {
+    background-image: url(/images/arrow_white_left.png);
+}
+
+.carousel .carousel-control-next-icon {
+    background-image: url(/images/arrow_white_right.png);
+}
