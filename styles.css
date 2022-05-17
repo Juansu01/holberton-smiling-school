@@ -171,3 +171,15 @@ a:hover, a:focus {
 .carousel .carousel-control-next-icon {
     background-image: url(/images/arrow_white_right.png);
 }
+
+.tutorials-section {
+    background-color: #FFFFFF;
+}
+
+.black-arrow {
+    color: black;
+}
+.play-img {
+    margin: -110px 0 40px 85px;
+}
+
