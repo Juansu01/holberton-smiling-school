@@ -191,3 +191,16 @@ a:hover, a:focus {
 .purple-text {
     color:#C271FF;
 }
+
+.smiles-header {
+    background-image: none;
+}
+
+.btn.register-btn {
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 22px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
