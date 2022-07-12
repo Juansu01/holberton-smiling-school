@@ -19,7 +19,7 @@ body {
 
 }
 
-header {
+.homepage-header {
     background-image: url(images/pic_1.jpg);
     background-position: center;
     background-size: cover;
