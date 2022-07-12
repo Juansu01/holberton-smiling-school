@@ -265,3 +265,34 @@ a:hover, a:focus {
       padding: 45px 0;
     }
 }
+
+/* Pricing section */
+
+.pricing-header {
+    background-image: url(images/pic_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pricing-header h2 {
+    padding-top: 75px;
+    padding-bottom: 55px;
+    font-size: 60px;
+}
+
+.pricing-header h1 {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 575px) {
+    .pricing-header h1 {
+      font-size: 24px;
+      padding-top: 75px;
+    }
+    .pricing-header .hero .smile-fig {
+      max-width: 30px;
+    }
+
+}
