@@ -296,3 +296,81 @@ a:hover, a:focus {
     }
 
 }
+
+.btn.btn-smile {
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 22px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+.check-icon {
+    padding-left: 30px;
+}
+
+.prices-grid {
+  padding-bottom: 38px;
+}
+
+.prices-grid .plan button {
+  font-size: 14px;
+  font-weight: 600;
+  width: 162px;
+  height: 44px;
+}
+
+.prices-grid .plan h3 {
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.prices-grid .plan span {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+}
+
+.prices-grid .table {
+  table-layout: fixed;
+  margin-bottom: 0;
+}
+
+.prices-grid .signal-logo {
+  padding: 10px 0 5px 0;
+}
+
+.prices-grid .row {
+  margin-bottom: 62px;
+}
+
+.prices-grid .table .prices-col-1,
+.prices-grid .table .prices-col-2,
+.prices-grid .table .prices-col-3 {
+  vertical-align: middle;
+}
+
+.prices-grid .plan button {
+  font-size: 14px;
+  font-weight: 600;
+  width: 162px;
+  height: 44px;
+}
+
+.prices-grid .plan h3 {
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.prices-grid .plan span {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  padding-left: 50px;
+}
