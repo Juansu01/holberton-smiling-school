@@ -374,3 +374,7 @@ a:hover, a:focus {
   margin: 0;
   padding-left: 50px;
 }
+
+.pricing-table-title-1, .pricing-table-title-2 {
+    padding-left: 50px !important;
+}
