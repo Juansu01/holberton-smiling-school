@@ -512,4 +512,18 @@ a:hover, a:focus {
     margin-top: 19px;
     margin-bottom: 19px;
   }
+
+  .section .card-img-overlay {
+    top: 15% !important;
+  }
+}
+
+/* Video section */
+
+.videos-section {
+  background-color: #FFFFFF;
+}
+
+.section .card-img-overlay {
+  top: 5%;
 }
